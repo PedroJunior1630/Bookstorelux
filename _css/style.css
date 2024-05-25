@@ -1,0 +1,94 @@
+@charset "UTF-8";
+@font-face {
+    font-family: "Logo";
+    src: url("../_fonts/Pangolin-Regular.ttf");
+}
+@font-face {
+    font-family: "Inter";
+    src: url("../_fonts/Inter-VariableFont_slnt\,wght.ttf");
+}
+h1#titulo {
+    font-size: 40pt;
+    color: #3c6e71;
+    text-shadow: 3px 2px 2px black;
+    font-family: "Logo";
+    left: 120px;
+    top: -90px;
+    position: relative;
+}
+
+header img {
+    position: relative;
+    display: flex;
+    height: 100px;
+    width: 100px;
+    top: 30px;
+}
+
+header{
+    height: 300px;
+}
+
+header nav ul{
+    list-style: none;
+    text-transform: UPPERCASE;
+    position: absolute;
+    top: 0px;
+    left: 500px;
+
+}
+
+header li{
+    display: inline-block;
+    padding: 10px;
+    margin: 50px;
+    border-radius: 5px;
+    transition: background-color 1s;
+}
+
+header li a{
+    text-decoration: underline;
+    color: black;
+    font-family: "Inter";
+    font-size: 15pt;
+}
+header li a:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+header nav ul li:hover{
+    background-color: #154244;
+}
+
+section{
+    height: 1200px;
+}
+
+footer{
+    clear: both;
+}
+
+footer h1{
+    text-align: center;
+    background-color: #284b63;
+    display: block;
+    margin-bottom: -10px;
+    padding: 10px;
+    color: white;
+    text-shadow: 2px 1px 1px black;
+    font-family:'Courier New', Courier, monospace;
+}
+
+footer a{
+    text-decoration: underline;
+    color: white;
+    transition: background-color 1s;
+}
+
+footer a:hover{
+    background-color: white;
+    color: #284b63;
+    padding: 7px;
+    border-radius: 5px;
+}
