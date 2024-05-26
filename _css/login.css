@@ -1,0 +1,8 @@
+@charset "UTF-8";
+
+.form-container {
+    display: none;
+}
+.form-container.active {
+    display: block;
+}
