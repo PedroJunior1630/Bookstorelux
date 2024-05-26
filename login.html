@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entrar</title>
+    <link rel="stylesheet" href="_css/style.css">
+    <link rel="shortcut ico" href="_imagens/icone.ico">
+    <link rel="stylesheet" href="_css/login.css">
+</head>
+<body>
+    <div>
+        <header>
+            <img src = "_imagens/IMG-20240524-WA0035.jpg"/>
+            <h1 id = "titulo">BooksLux</h1>
+            <nav id = "navega">
+                <ul>
+                    <li><a href="index.html">Livros</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="login.html">Log in</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div>
+            <button onclick="trocarFormulario('entrar')">Entrar</button>
+            <button onclick="trocarFormulario('registro')">Registrar</button>
+        </div>
+        <div id = "registro" class = "form-container">
+            <form>
+                <fieldset>
+                    <legend>Registrar</legend>
+                    <p>
+                        <label for="nome"> Usuario
+                            <input type="text" name="usuario" id="nome">
+                        </label>
+                    </p>
+                    <p> 
+                        <label for="mail"> E-mail
+                        <input type="email" name="endereco" id="mail">
+                        </label> 
+                    </p>
+                    <p>
+                        <label for="senha"> Senha
+                            <input type="password" name="se" id="senha">
+                        </label>
+                    </p>
+                </fieldset>
+            </form>
+        </div>
+
+        <div id = "entrar" class = "form-container active">
+            <form>
+                <fieldset>
+                    <legend>Entrar</legend>
+                    <p>
+                        <label for="usuario"> Usuario
+                            <input type="text" name="nome" id="usuario">
+                        </label>
+                    </p>
+                    <p>
+                        <label for="senha"> Senha
+                            <input type="password" name="se" id="senha">
+                        </label>
+                    </p>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+    <script src="_scripts/login.js"></script>
+</body>
+</html>
