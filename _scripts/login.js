@@ -1,5 +1,11 @@
-function trocarFormulario(tipo){
-    document.getElementById('entrar').classList.remove('active');
-    document.getElementById('registro').classList.remove('active');
-    document.getElementById(tipo).classList.add('active');
-}
+const container = document.getElementById('container');
+const registerBtn = document.getElementById('register');
+const loginBtn = document.getElementById('login');
+
+registerBtn.addEventListener('click', () => {
+    container.classList.add("active");
+});
+
+loginBtn.addEventListener('click', () => {
+    container.classList.remove("active");
+});
