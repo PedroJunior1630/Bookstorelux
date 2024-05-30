@@ -74,6 +74,16 @@ header nav ul li:hover{
     background-color: #154244;
 }
 
+#carrinho{
+    color: #284b63;
+    margin-right: 0px;
+    width: 200px;
+    height: 200px;
+}
+
+#carrinho:hover{
+    color: white;
+}
 
 .livro-container{
     margin-left: 15px;
