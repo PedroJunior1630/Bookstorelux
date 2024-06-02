@@ -48,7 +48,7 @@ header nav ul{
     text-transform: UPPERCASE;
     position: absolute;
     top: 0px;
-    left: 500px;
+    left: 400px;
 
 }
 
@@ -75,6 +75,16 @@ header nav ul li:hover{
     background-color: #154244;
 }
 
+li .bi{
+    color: #284b63;
+    margin-right: 5px;
+    width: 200px;
+    height: 200px;
+}
+
+li .bi:hover{
+    color: white;
+}
 .container{
     background-color: #fff;
     border-radius: 30px;

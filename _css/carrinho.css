@@ -1,0 +1,78 @@
+@charset "UTF-8";
+@font-face {
+    font-family: "Logo";
+    src: url("../_fonts/Pangolin-Regular.ttf");
+}
+@font-face {
+    font-family: "Inter";
+    src: url("../_fonts/Inter-VariableFont_slnt\,wght.ttf");
+}
+@font-face {
+    font-family: "Chaka";
+    src: url("../_fonts/ChakraPetch-Medium.ttf");
+}
+
+
+
+.area-carrinho h1{
+    color: white;
+    text-shadow: 2px 1px 1px black;
+    background-color: #353533;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-family: "Chaka";
+    font-size: 15pt;
+    text-align: center;
+    text-transform: uppercase;
+}
+.area-carrinho h2{
+    color: #353533;
+    margin-bottom: 10px;
+    font-family: "Chaka";
+    font-size: 13pt;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#engrenagem1{
+    font-size: 100px;
+    animation: spin 5s linear infinite;
+    transform-origin: center;
+    color: #353533;
+    left: 550px;
+    top: 70px;
+    position: relative;
+}
+#engrenagem2{
+    font-size: 100px;
+    animation: rotate-reverse 5s linear infinite;
+    transform-origin: center;
+    color: #353533;
+    left: 530px;
+    top: 40px;
+    position: relative;
+}
+
+
+@keyframes spin {
+    from { 
+        transform: rotate(0deg); 
+    }
+    to {
+        transform: rotate(360deg); 
+    }
+}
+@keyframes rotate-reverse {
+    from { 
+        transform: rotate(360deg); 
+    }
+    to {
+        transform: rotate(0deg); 
+    }
+}
+
+footer{
+    clear:both;
+    margin-top: 200px;
+}

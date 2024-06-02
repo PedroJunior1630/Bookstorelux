@@ -47,7 +47,7 @@ header#cabecalho nav ul{
     text-transform: UPPERCASE;
     position: absolute;
     top: 0px;
-    left: 400px;
+    left: 380px;
 }
 
 header#cabecalho li{
@@ -73,14 +73,14 @@ header#cabecalho nav ul li:hover{
     background-color: #154244;
 }
 
-#carrinho{
+li .bi{
     color: #284b63;
-    margin-right: 0px;
+    margin-right: 5px;
     width: 200px;
     height: 200px;
 }
 
-#carrinho:hover{
+li .bi:hover{
     color: white;
 }
 
