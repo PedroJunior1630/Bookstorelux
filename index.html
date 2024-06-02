@@ -10,7 +10,7 @@
 </head>
 <body>
     <div id = "principal">    
-        <header>
+        <header id = "cabecalho">
             <img src = "_imagens/logo1.jpg" alt = "logo"/>
             <h1 id = "titulo">BooksLux</h1>
             <nav id = "navega">
@@ -23,7 +23,7 @@
             </nav>
         </header>
         <main>
-            <section class = "livros-sessao">
+            <section class = "livros-sessao" id = "sessao">
                 <h1 class = "titulo">Livros a sua disposição!</h1>
                 <div class = "livro-container">
                     <h1 class = "topico"> <i class="bi bi-arrow-bar-right"></i> Marketing / Administração</h1>
@@ -32,7 +32,7 @@
                         <h3 class = "titulo-livro">Princípios da Administração</h3>
                         <p class = "autor"> <b>Por:</b> Chiavenato</p>
                         <p class = "valor">R$ 19,99</p>
-                        <button type="submit" id = "botaobuy" class="compra">Comprar/Adicionar ao carrinho</button>
+                        <button type="submit" onclick="adicionaCarrinho('admchiavenato.png')" class="compra">Comprar/Adicionar ao carrinho</button>
                     </div>
                     <div class ="livro">
                         <img src="_imagens/administração.png" alt="adm">
@@ -217,9 +217,10 @@
                 </div>
             </section>
         </main>
-            <footer>
+        <footer id = "rodape">
             <h1>Created By <a href="https://www.instagram.com/ph_dev_/" target="_blank">PHDEV&copy;</a> 2024&trade;</h1>
         </footer>
     </div>
+    <script src="_scripts/carrinho.js"></script>
 </body>
 </html>
