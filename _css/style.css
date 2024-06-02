@@ -47,7 +47,7 @@ header nav ul{
     text-transform: UPPERCASE;
     position: absolute;
     top: 0px;
-    left: 500px;
+    left: 400px;
 
 }
 
@@ -152,6 +152,7 @@ header nav ul li:hover{
     margin-top: 5px;
     font-family: "Chaka";
     font-size: 10pt;
+    border: 2px solid black;
 }
 section h1.titulo{
     background: linear-gradient(to right, #3c6e71,#284b63);
