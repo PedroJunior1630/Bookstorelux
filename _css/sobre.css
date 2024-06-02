@@ -1,0 +1,26 @@
+@charset "UTF-8";
+@font-face {
+    font-family: "Logo";
+    src: url("../_fonts/Pangolin-Regular.ttf");
+}
+@font-face {
+    font-family: "Inter";
+    src: url("../_fonts/Inter-VariableFont_slnt\,wght.ttf");
+}
+@font-face {
+    font-family: "Chaka";
+    src: url("../_fonts/ChakraPetch-Medium.ttf");
+}
+
+section#sessao-sobre h1{
+    font-family: "Chaka";
+    font-size: 15pt;
+    text-align: center;
+    color: white;
+    background-color: #353533;
+    border-radius: 5px;
+    padding: 10px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
