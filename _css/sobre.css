@@ -29,6 +29,65 @@ section#sessao-sobre i{
     margin-left: 10px;
 }
 
+#album-fotos{
+    margin-top: 50px;
+    width: 900px;
+    padding: 50px;
+    margin: 0px auto;
+    overflow: hidden;
+    list-style: none;
+    margin-left: 100px;
+    position: relative;
+    left: 250px;
+}
+#album-fotos li{
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 15px;
+    border: 5px solid #284b63;
+    background-color: white;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.4);
+    border-radius: 3px;
+}
+#album-fotos li#foto01{
+    background: url("../_imagens/bibliotec.jpg")no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white;
+}
+#album-fotos li#foto02{
+    background: url("../_imagens/biblioetca2.jpg")no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white;
+}
+#album-fotos li#foto03{
+    background: url("../_imagens/caixas.jpg")no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white;
+}
+#album-fotos li#foto04{
+    background: url("../_imagens/estoque.jpg")no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white;
+}
+#album-fotos li#foto05{
+    background: url("../_imagens/biblioteca3.jpg")no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white;
+}
+#album-fotos li#foto06{
+    background: url("../_imagens/livros.jpg")no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white;
+}
+
+
 section#sessao-sobre p{
     text-align:justify;
     text-indent: 40px;
