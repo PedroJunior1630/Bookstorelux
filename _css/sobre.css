@@ -43,10 +43,17 @@ section#sessao-sobre ol{
     margin-left: 20px;
     font-size: 10pt;
 }
+section#sessao-sobre ul{
+    font-family: "Inter";
+    padding: 10px;
+    margin-left: 20px;
+    font-size: 10pt;
+}
 
 section#sessao-sobre li{
     margin-bottom: 20px;
 }
+
 section#sessao-sobre span{
     text-decoration:underline;
     text-transform: uppercase;
