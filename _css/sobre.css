@@ -25,6 +25,9 @@ section#sessao-sobre h1{
     margin-bottom: 20px;
     position: relative;
 }
+section#sessao-sobre i{
+    margin-left: 10px;
+}
 
 section#sessao-sobre p{
     text-align:justify;
