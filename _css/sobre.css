@@ -145,6 +145,25 @@ section#sessao-sobre p{
     margin-bottom: 2px;
 }
 
+.pdf{
+    border-radius: 10px;
+    position: relative;
+    left: 330px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 8px solid #284b63; 
+}
+
+#gdf{
+    border-radius: 3px;
+    width: 150px;
+    height: 100px;
+    position: relative;
+    left: 1150px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
 section#sessao-sobre ol{
     font-family: "Inter";
     padding: 10px;
