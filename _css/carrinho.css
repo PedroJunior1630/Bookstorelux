@@ -34,7 +34,7 @@
 #compra{
     display: inline-flex;
     position: relative;
-    left: 1200px;
+    left: 1150px;
     top: -20px;
     color: white;
     background-color: #353533;
@@ -45,7 +45,11 @@
     text-transform: UPPERCASE;
     box-shadow: 2px 2px 3px black;
 }
-
+#compra:hover{
+    color: #353533;
+    background-color: #bcb8b8;
+    transition: 1s;
+}
 footer{
     clear:both;
 }
